@@ -5,3 +5,5 @@ console.log(z)
 console.log(typeof z);
 
 console.log(z + 5);
+
+console.log(0 === false) 
