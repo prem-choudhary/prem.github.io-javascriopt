@@ -1,17 +1,14 @@
-/* Styles for the entire document */
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
   background-color: #8eb0cc;
 }
 
-/* Styles for the heading */
 h1 {
   color: #333;
   align-items: center;
 }
 
-/* Styles for the form */
 form {
   background-color: #9fb6cb;
   padding: 20px;
@@ -21,14 +18,12 @@ form {
   margin-bottom: 20px;
 }
 
-/* Styles for form labels */
 form label {
   display: block;
   margin-bottom: 8px;
   font-weight: bold;
 }
 
-/* Styles for form inputs */
 form input[type="text"],
 form input[type="email"],
 form textarea {
@@ -39,7 +34,6 @@ form textarea {
   border-radius: 4px;
 }
 
-/* Styles for form submit button */
 form input[type="submit"] {
   background-color: #4caf50;
   color: rgb(157, 42, 42);
@@ -49,12 +43,10 @@ form input[type="submit"] {
   cursor: pointer;
 }
 
-/* Change submit button color on hover */
 form input[type="submit"]:hover {
   background-color: #45a049;
 }
 
-/* Styles for the table */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -62,25 +54,21 @@ table {
   background-color: aqua;
 }
 
-/* Styles for table headers */
 table th,
 table td {
   border: 1px solid #9b1a1a;
   padding: 8px;
 }
 
-/* Styles for table header row */
 table th {
   background-color: #f2f2f2;
   text-align: left;
 }
 
-/* Zebra striping for table rows */
 table tr:nth-child(even) {
   background-color: #f9f9f9;
 }
 
-/* Highlight the table row on hover */
 table tr:hover {
   background-color: #f1f1f1;
 }
