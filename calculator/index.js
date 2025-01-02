@@ -67,7 +67,7 @@ function inputDecimal(dot) {
   if (!calculator.displayValue.includes(dot)) {
     calculator.displayValue += dot;
   }
-}
+} 
 
 function handleOperator(nextOperator) {
   const { firstOperand, displayValue, operator } = calculator;
