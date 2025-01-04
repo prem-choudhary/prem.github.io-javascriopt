@@ -3,3 +3,5 @@ function sum(...numbers) {
 }
 
 console.log(sum(1, 2, 3, 4)); // Output: 10
+
+console.log("Hello Rest")
