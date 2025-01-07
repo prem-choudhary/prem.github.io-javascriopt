@@ -14,3 +14,4 @@ function uniqueAnimals(herd) {
 
 console.log(uniqueAnimals(herd));
 // Output: ["cow", "sheep", "goat", "horse"]
+ 
