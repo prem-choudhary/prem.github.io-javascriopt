@@ -52,3 +52,16 @@ console.log(NewArr); // [3, 4, 5]
 let Reduce = [1, 2, 3, 4];
 let sum = Reduce.reduce((acc, current) => acc + current, 0);
 console.log(sum); // 10
+
+console.log(arr); // [1, 2, 3, 4]
+console.log(arr1); // [1, 2]
+console.log(arr2); // [2, 3]
+console.log(arr3); // [0, 1, 2, 3]
+console.log(arr4); // [1, 2, 3]
+console.log(arr5); // [4, 5, 6]
+console.log(arr6); // [1, 2, 3, 4, 5]
+console.log(arr7); // [1, 2, "a", "b", 4, 5]
+console.log(arr8); // [1, 2, 3]
+console.log(arr9); // [1, 2, 3]
+console.log(Filter); // [1, 2, 3, 4, 5]
+console.log(Reduce); // [1, 2, 3, 4]
