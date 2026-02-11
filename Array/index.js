@@ -52,5 +52,3 @@ console.log(NewArr); // [3, 4, 5]
 let Reduce = [1, 2, 3, 4];
 let sum = Reduce.reduce((acc, current) => acc + current, 0);
 console.log(sum); // 10
-
-// 
