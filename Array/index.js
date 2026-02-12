@@ -65,3 +65,6 @@ console.log(arr8); // [1, 2, 3]
 console.log(arr9); // [1, 2, 3]
 console.log(Filter); // [1, 2, 3, 4, 5]
 console.log(Reduce); // [1, 2, 3, 4]
+
+console.log(newArr); // [2, 4, 6]
+console.log(NewArr); // [3, 4, 5]
