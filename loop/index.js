@@ -37,6 +37,6 @@ function findFirstHorse(arr) {
   }
   return -1;
 }
-
+2
 console.log(findFirstHorse(arr));
 // Output: 3
