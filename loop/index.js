@@ -22,13 +22,10 @@ function filterAnimals(herd1) {
   }
   return filtered;
 }
-
 console.log(filterAnimals(herd1));
 // Output: ["sheep", "horse", "elephant"]
-
 //  Find the first Horse
 const arr = ["cow", "goat", "sheep", "horse", "cow", "horse"];
-
 function findFirstHorse(arr) {
   for (let i = 0; i < herd.length; i++) {
     if (arr[i] === "horse") {
