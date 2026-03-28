@@ -6,9 +6,7 @@ for (let i = 0; i < str.length; i++) {
     console.log(sub);
   }
 }
-
 /* 
-
 m
 ma
 mas
@@ -22,5 +20,4 @@ sa
 a
 ai
 i
-
 */
