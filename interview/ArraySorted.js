@@ -41,3 +41,5 @@ const obj = new Solution();
 const ans = obj.singleNonDuplicate(arr);
 
 console.log("The single element is:", ans);
+
+//  The single element is: 4 ??? 
