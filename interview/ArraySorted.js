@@ -38,4 +38,4 @@ const arr = [1, 1, 2, 2, 3, 3, 4, 5, 5, 6, 6];
 const obj = new Solution();
 const ans = obj.singleNonDuplicate(arr);
 console.log("The single element is:", ans);
-//  The single element is: 4 ??? 
+//  The single element is: 4 ???
