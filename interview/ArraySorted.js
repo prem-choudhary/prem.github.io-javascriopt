@@ -1,7 +1,7 @@
 class Solution {
   // Function to find the single non-duplicate element
   singleNonDuplicate(arr) {
-    const n = arr.length;
+    const n = arr.length; 
 
     // Edge cases
     if (n === 1) return arr[0];

@@ -9,7 +9,6 @@ function countAnimals(herd) {
 }
 
 console.log(countAnimals(herd));
-// Output: { cow: 3, sheep: 2, goat: 1, horse: 1 }
 
 const herd1 = ["cow", "sheep", "goat", "horse", "elephant", "cow", "goat"];
 
@@ -23,8 +22,6 @@ function filterAnimals(herd1) {
   return filtered;
 }
 console.log(filterAnimals(herd1));
-// Output: ["sheep", "horse", "elephant"]
-//  Find the first Horse
 const arr = ["cow", "goat", "sheep", "horse", "cow", "horse"];
 function findFirstHorse(arr) {
   for (let i = 0; i < herd.length; i++) {
@@ -34,6 +31,6 @@ function findFirstHorse(arr) {
   }
   return -1;
 }
-2
+
 console.log(findFirstHorse(arr));
 // Output: 3

@@ -3,14 +3,12 @@ let arr = [1, 2, 3];
 arr.push(4);
 console.log(arr); // [1, 2, 3, 4]
 
-
 //  pop(): Removes the last element from an array.
 let arr1 = [1, 2, 3];
 arr.pop();
 console.log(arr1); // [1, 2]
 
-
-//  shift(): Removes the first element from an array.
+//  shift(): Removes the first element from an array.9
 let arr2 = [1, 2, 3];
 arr.shift();
 console.log(arr2); // [2, 3]
@@ -36,16 +34,16 @@ console.log(arr7); // [1, 2, "a", "b", 4, 5]
 
 // forEach(): Executes a function for each array element.
 let arr8 = [1, 2, 3];
-arr.forEach(item => console.log(item)); // 1 2 3
+arr.forEach((item) => console.log(item)); // 1 2 3
 
 // map(): Creates a new array with the results of calling a function for every array element.
 let arr9 = [1, 2, 3];
-let newArr = arr9.map(item => item * 2);
+let newArr = arr9.map((item) => item * 2);
 console.log(newArr); // [2, 4, 6]
 
 //filter(): Creates a new array with all elements that pass the test implemented by the provided function.
 let Filter = [1, 2, 3, 4, 5];
-let NewArr = Filter.filter(item => item > 2);
+let NewArr = Filter.filter((item) => item > 2);
 console.log(NewArr); // [3, 4, 5]
 
 // reduce(): Executes a reducer function on each element of the array, resulting in a single output value.

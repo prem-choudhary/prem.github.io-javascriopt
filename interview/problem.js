@@ -7,17 +7,17 @@ for (let i = 0; i < str.length; i++) {
   }
 }
 /* 
-m
-ma
-mas
-masa
-masai
-a
-as
-asa
-s
-sa
-a
-ai
-i
+    m
+    ma            
+    mas
+    masa
+    masai
+    a
+    as
+    asa
+    s
+    sa
+    a
+    ai
+    i
 */
